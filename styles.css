@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+    }
+
+/*Creates header with font size, padding, and color*/
+.header {
+    background-color:rgb(255, 0, 0);
+    text-align: center;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+  }
+
+/*Creates navigation bar stlying*/
+.navbar {
+    overflow:hidden;
+    background-color:red;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+.navbar a {
+    float:left;
+    display: block;
+    color:black;
+    padding: 2px 2px;
+    text-align: center;
+}
+/* Changes color on navbar when hovered*/
+.navbar a:hover{
+    background-color: red;
+    color:whitesmoke;
+  }
+
+  .searchbar {
+    overflow:hidden;
+    background-color: red;
+    padding:5px 5px;
+    text-align:end;
+  }
+
+/*Separates out the slogan from the header stylized*/
+  .slogan {
+    font-family:'Courier New', Courier, monospace;
+    font-size:85%;
+  }
+
+  .column {
+    float:left;
+    padding:10px;
+  }
+
+  .column.middle {
+    width:50%;
+  }
+
+  .column.side {
+    width:25%;
+  }
+
+  .row::after {
+    content:"";
+    display:table;
+    clear: both;
+  }
+
+  #table {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  .img {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+  }
+
+  p::first-line {
+    color:red;
+    font-variant: small-caps;
+  }
+
+  
